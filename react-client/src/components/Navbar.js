@@ -12,7 +12,7 @@ export default function Navbar(){
                     <a href="/about">About</a>
                     </li>
                     <li>
-                    <a href="/Login">Login</a>
+                    <a href="/Login">Chat</a>
                 </li>
             </ul>
         </nav>

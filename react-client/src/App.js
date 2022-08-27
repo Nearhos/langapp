@@ -1,7 +1,7 @@
 
 import Navbar from './components/Navbar';
 import About from './components/about.js';
-import Login from './components/Login.js';
+import Login from './components/Chat.js';
 import Home from './components/Home.js';
 import './App.css';
 

@@ -1,6 +1,6 @@
 
 
-import './Login.css';
+import './Home.css';
 import TextBox from './TextBoxabout.js';
 function Login() {
     return (
@@ -8,7 +8,7 @@ function Login() {
            
         <div className = "loginbackround" style={{color:"white"}}>
          
-  <TextBox  textcolor="black" fontsize="15px" pt="25px"/>
+  <TextBox  textcolor="black" fontsize="15px" pt="250px"/>
     </div>
       </div>
     );
