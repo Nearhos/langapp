@@ -9,7 +9,8 @@ function Login() {
            
         <div className = "loginbackround" style={{color:"white"}}>
           <div className = "loginbackround" style={{paddingTop: "50px"}}>
-          <h1>glossa (γλῶσσα), a Greek word meaning "tongue" or "language"</h1></div>
+          <div class="typewriter" >
+      <p>glossa (γλῶσσα), a Greek word meaning "tongue" or "language"</p></div></div>
   <TextBox2  textcolor="white" fontsize="25px" pt="250px"/>
   <TextBox  textcolor="white" fontsize="25px" pt="250px"/>
     </div>

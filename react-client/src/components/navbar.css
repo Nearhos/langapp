@@ -30,6 +30,11 @@
   
   .site-title {
     font-size: 2rem;
+  
+  
+    font-family: 'Courier New', Courier, monospace;
+    font: monospace;
+    font-style: bold;
   }
   
   .nav ul {
@@ -47,6 +52,9 @@
     display: flex;
     align-items: center;
     padding: .25rem;
+    font-family: 'Courier New', Courier, monospace;
+    font: monospace;
+    font-style: bold;
   }
   
   .nav li.active {

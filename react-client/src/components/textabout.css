@@ -1,7 +1,7 @@
 .col-sm{
  
-    background-color: rgb(41, 158, 41);
-    border: 1px solid rgb(41, 158, 41);
+    background-color: #428124fd;
+    border: 1px solid #428124fd;
     border-radius: 0.5rem;
 }
 .text{
@@ -11,7 +11,4 @@
     font-style: bold;
   
     
-}
-.App-logo{
- 
 }
