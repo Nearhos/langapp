@@ -7,17 +7,20 @@ const mysql = require('mysql');
 const jsonParser = bodyParser.json();
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
 const axios = require('axios');
-// var con = mysql.createConnection({
-//     host: process.env.DB_HOST,
-//     user: process.env.DB_USER,
-//     password: process.env.DB_PASS,
-//     database: process.env.DB_NAME
-// });
+var cors = require('cors');
 
-// con.connect(function(err) {
-//     if (err) throw err;
-//     console.log("Connected to mysql!");
-// });
+const whitelist = ["http://localhost:3000"]
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (!origin || whitelist.indexOf(origin) !== -1) {
+      callback(null, true)
+    } else {
+      callback(new Error("Not allowed by CORS"))
+    }
+  },
+  credentials: true,
+}
+app.use(cors(corsOptions))
 
 app.get('/', (req, res) => {
   res.send(process.env.OPENAI_API);
