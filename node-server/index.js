@@ -43,7 +43,7 @@ app.post('/sendmessage', jsonParser, (req, res) => {
 
     axios
     .post('https://api.openai.com/v1/completions', {
-        model: "text-ada-001",
+        model: "text-davinci-002",
         prompt: message,
         temperature: 0.7,
         max_tokens: 256,
