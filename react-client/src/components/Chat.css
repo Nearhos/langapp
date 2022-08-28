@@ -102,3 +102,8 @@ ul, li {
   border: 1px solid#fc9f34;
   border-radius: 0.25rem;
 }
+
+.languageInput {
+  width: 30%;
+  border-right: 1px solid white;
+}
