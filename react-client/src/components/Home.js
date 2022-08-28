@@ -1,14 +1,17 @@
 
 
 import './Home.css';
-import TextBox from './TextBoxabout.js';
+import TextBox from './TextBoxhome';
+import TextBox2 from './textboxhome2';
 function Login() {
     return (
       <div className="Login" style={{backgroundColor: '#282c34',paddingBottom:"1000px"}}>
            
         <div className = "loginbackround" style={{color:"white"}}>
-         
-  <TextBox  textcolor="black" fontsize="15px" pt="250px"/>
+          <div className = "loginbackround" style={{paddingTop: "50px"}}>
+          <h1>glossa (γλῶσσα), a Greek word meaning "tongue" or "language"</h1></div>
+  <TextBox2  textcolor="white" fontsize="25px" pt="250px"/>
+  <TextBox  textcolor="white" fontsize="25px" pt="250px"/>
     </div>
       </div>
     );
