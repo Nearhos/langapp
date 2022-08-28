@@ -90,11 +90,15 @@ ul, li {
 
 .sent {
   color: white;
-  background: #0b93f6;
+  background: #1b64d3;
   align-self: flex-end;
+  border: 1px solid#1b64d3;
+  border-radius: 0.25rem;
 }
 .received {
-  background: #e5e5ea;
-  color: black;
+  background: #fc9f34;
+  color: rgb(255, 255, 255);
   align-self: flex-start;
+  border: 1px solid#fc9f34;
+  border-radius: 0.25rem;
 }

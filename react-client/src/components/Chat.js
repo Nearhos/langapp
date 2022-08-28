@@ -58,8 +58,7 @@ function Chat() {
 
     <form onSubmit={onSubmit}>
   
-    <button type="submit" >lang</button>
-      <input placeholder="text" onChange={handleChange} value={input}/>
+      <input placeholder="say something in the langauge of your choice to start a converstation" onChange={handleChange} value={input}/>
 
       <button type="submit"> send </button>
     </form>
