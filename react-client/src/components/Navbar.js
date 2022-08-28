@@ -14,6 +14,9 @@ export default function Navbar(){
                     <li>
                     <a href="/Login">Chat</a>
                 </li>
+                <li>
+                    <a href="/Home">Our Mission</a>
+                </li>
             </ul>
         </nav>
     )
