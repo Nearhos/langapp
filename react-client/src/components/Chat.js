@@ -23,7 +23,7 @@ function Chat() {
     ]);
 
     
-    const messageToSend = `reply to: ${input} in ${language}`;
+    const messageToSend = `reply to: ${input} in ${language} (Do not translate) `;
     console.log("submit"+messageToSend);
     axios.post("http://localhost:4000/sendmessage", {message: messageToSend}, header)
     .then((response) => {
